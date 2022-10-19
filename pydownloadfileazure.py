@@ -2,7 +2,7 @@
 from azure.storage.blob import BlobServiceClient
 
 STORAGEACCOUNTURL = "https://dbaplexbipoc.blob.core.windows.net"
-STORAGEACCOUNTKEY = "vEzvUZkN/huOQmwdsLyc5CmO08k+Pf5mOJFcvM6Vs0YbSIuXATMrHBCv4MLn3O/xSsf6M1V7xvPj+AStuXR/uA=="
+STORAGEACCOUNTKEY = "" #secretkey
 CONTAINERNAME = "dbaplex-bi-poc"
 BLOBNAME = "products_azure.csv"
 
