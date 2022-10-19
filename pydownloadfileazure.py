@@ -1,9 +1,9 @@
 #pip install azure-storage-blob
 from azure.storage.blob import BlobServiceClient
 
-STORAGEACCOUNTURL = "https://dbaplexbipoc.blob.core.windows.net"
-STORAGEACCOUNTKEY = "" #secretkey
-CONTAINERNAME = "dbaplex-bi-poc"
+STORAGEACCOUNTURL = "https://storagename.blob.core.windows.net"
+STORAGEACCOUNTKEY = "storagekey" #secretkey
+CONTAINERNAME = "containername"
 BLOBNAME = "products_azure.csv"
 
 blob_service_client_instance = BlobServiceClient(
