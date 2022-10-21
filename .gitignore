@@ -1,2 +1,5 @@
 
 exported_data.csv
+files/file.txt
+files/file.xlsx
+*.dat
