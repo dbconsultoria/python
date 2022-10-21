@@ -1,4 +1,4 @@
-#dia: 20/10/2022
+#dia: 21/10/2022
 #pip install sqlalchemy
 import pandas as pd
 import pyodbc 
