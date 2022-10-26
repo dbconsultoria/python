@@ -1,20 +1,20 @@
-# importing required modules
+# pip install pypdf2
 import PyPDF2
 	
-# creating a pdf file object
+# criar o file object
 pdfFileObj = open(R'C:\Users\Rodrigo\Documents\GitHub\python\365_DIAS_DE_ PYTHON.pdf', 'rb')
 	
-# creating a pdf reader object
+# criar o reader
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 	
-# printing number of pages in pdf file
+# imprimir o número de páginas
 print(pdfReader.numPages)
 	
-# creating a page object
+# criar um page object
 pageObj = pdfReader.getPage(0)
 	
-# extracting text from page
+# extrair texto da página
 print(pageObj.extractText())
 	
-# closing the pdf file object
+# fechar o objeto (liberar o doc)
 pdfFileObj.close()
