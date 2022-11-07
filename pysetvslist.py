@@ -3,8 +3,7 @@
 #A principal diferença é que sets não podem ter várias ocorrências do mesmo elemento.
 
 
-# atribuição python set e list
-
+# atribuição python set e list (removendo duplicados)
 pylist = ['Python', 'R', 'SQL', 'Git', 'Tableau', 'SAS','Python','R']
 pyset = set(pylist)
 
